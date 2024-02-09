@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/mountains-morning-snow-rock-mountain-landscape.png);
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10%;
+    border-bottom: 2px solid #adadad;
+}
+
+.nav-items {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section h1 {
+    color: white;
+    width: 30%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+section p {
+    color: rgb(212, 209, 209);
+    width: 35%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.watch-work {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 8px 15px;
+    font-family: sans-serif;
+    border: none;
+    cursor: pointer;
+
+}
+
+.watch-video {
+    display: flex;
+    background: none;
+    border: none;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.watch-video p {
+    width: unset;
+    margin-left: 5px;
+    margin-top: 0;
+    font-family: sans-serif;
+    color: white;
+}
